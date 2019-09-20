@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BE382B4B-92C6-45EE-8609-46AD347009EA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack_Petruska_David</RootNamespace>
+    <AssemblyName>BlackJack_Petruska_David</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Content Include="Resources\UserLog.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\22.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\23.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\24.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\26.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\28.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\30.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\33.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\34.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\35.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\37.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\38.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\39.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\40.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\42.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\43.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\44.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\46.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\47.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\48.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\49.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\50.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\51.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\52.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\27.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\45.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\50.gif" />
+    <Resource Include="Images\51.gif" />
+    <Resource Include="Images\52.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\1.gif" />
+    <Resource Include="Images\10.gif" />
+    <Resource Include="Images\11.gif" />
+    <Resource Include="Images\12.gif" />
+    <Resource Include="Images\13.gif" />
+    <Resource Include="Images\14.gif" />
+    <Resource Include="Images\15.gif" />
+    <Resource Include="Images\16.gif" />
+    <Resource Include="Images\17.gif" />
+    <Resource Include="Images\18.gif" />
+    <Resource Include="Images\19.gif" />
+    <Resource Include="Images\2.gif" />
+    <Resource Include="Images\20.gif" />
+    <Resource Include="Images\21.gif" />
+    <Resource Include="Images\22.gif" />
+    <Resource Include="Images\23.gif" />
+    <Resource Include="Images\24.gif" />
+    <Resource Include="Images\25.gif" />
+    <Resource Include="Images\26.gif" />
+    <Resource Include="Images\27.gif" />
+    <Resource Include="Images\28.gif" />
+    <Resource Include="Images\29.gif" />
+    <Resource Include="Images\3.gif" />
+    <Resource Include="Images\30.gif" />
+    <Resource Include="Images\31.gif" />
+    <Resource Include="Images\32.gif" />
+    <Resource Include="Images\33.gif" />
+    <Resource Include="Images\34.gif" />
+    <Resource Include="Images\35.gif" />
+    <Resource Include="Images\36.gif" />
+    <Resource Include="Images\37.gif" />
+    <Resource Include="Images\38.gif" />
+    <Resource Include="Images\39.gif" />
+    <Resource Include="Images\4.gif" />
+    <Resource Include="Images\40.gif" />
+    <Resource Include="Images\41.gif" />
+    <Resource Include="Images\42.gif" />
+    <Resource Include="Images\43.gif" />
+    <Resource Include="Images\44.gif" />
+    <Resource Include="Images\45.gif" />
+    <Resource Include="Images\46.gif" />
+    <Resource Include="Images\47.gif" />
+    <Resource Include="Images\48.gif" />
+    <Resource Include="Images\49.gif" />
+    <Resource Include="Images\5.gif" />
+    <Resource Include="Images\6.gif" />
+    <Resource Include="Images\7.gif" />
+    <Resource Include="Images\8.gif" />
+    <Resource Include="Images\9.gif" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

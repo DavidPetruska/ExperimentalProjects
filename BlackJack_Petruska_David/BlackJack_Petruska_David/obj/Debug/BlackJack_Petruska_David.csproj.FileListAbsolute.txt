@@ -1,0 +1,15 @@
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\bin\Debug\BlackJack_Petruska_David.exe.config
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\bin\Debug\BlackJack_Petruska_David.exe
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\bin\Debug\BlackJack_Petruska_David.pdb
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\MainWindow.g.cs
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\App.g.cs
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David_MarkupCompile.cache
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David_MarkupCompile.lref
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\MainWindow.baml
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David.g.resources
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David.csproj.CoreCompileInputs.cache
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David.exe
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David.pdb
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David.csprojResolveAssemblyReference.cache
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\bin\Debug\Resources\UserLog.csv
+C:\Users\David\Documents\Visual Studio 2017\Projects\BlackJack_Petruska_David\BlackJack_Petruska_David\obj\Debug\BlackJack_Petruska_David_Content.g.cs
